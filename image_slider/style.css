@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(117, 187, 123);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 80vh;
+    width: 60%;
+    border: 8px solid rgb(129,187,174);
+    position: relative;
+    border-radius: 5px;
+    margin: 4rem auto;
+    box-shadow: 10px 10px 35px rgba(0,0,0,0.6);
+    background: url("images/2.jpg") center/cover fixed no-repeat;
+    transition:background 1s ease-in-out;
+}
+
+    .btn-left{
+        position: absolute;
+        top: 50%;
+        left: -2%;
+        padding: 5px;
+        background-color: aliceblue;
+        border-radius: 2em;
+        cursor: pointer;
+
+    }
+
+    .btn-right{
+        position: absolute;
+        top: 50%;
+        right: -2%;
+        padding: 5px;
+        background-color: aliceblue;
+        border-radius: 2em;
+        cursor: pointer;
+    }
