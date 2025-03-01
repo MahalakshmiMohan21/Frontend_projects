@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>MovieHive</h1>
+        <h5>Stay in Sync With Your Movies</h5>
+    </div>
+    <div class="container">
+        <div class="cont">
+            <h2>Theri</h2>
+            <h4>Vijay</h4>
+            <h4>Atli</h4>
+            <h4>entertaining</h4>
+            <h4>watched</h4>
+            <button onclick="del(event)">delete</button>
+        </div>
+        
+    </div>
+    <button class="add-btn" id="add-popup">+</button>
+    
+    <div class="pop-overlay"></div>
+
+    <div class="popup-box">
+        <h2>Add Movie</h2>
+        <form>
+            <input type="text" placeholder="Movie title" id="mov-tit">
+            <input type="text" placeholder="Hero" id="hero">
+            <input type="text" placeholder="Movie Director" id="mov-dir">
+            <input type="text" placeholder="Genre" id="genre">
+            <input type="text" placeholder="Status" id="status">
+            <button id="add-mov">Add</button>
+            <button id="cancel-pop">Cancel</button>
+        </form>
+    </div>
+
+       
+</body>
+<script src="app.js"></script>
+</html>
